@@ -82,6 +82,14 @@ Proces uvažování, v němž se jeden úsudek odvíjí od druhého a konečným
 
 <p>&nbsp;</p>
 
+## Pozice v datovém týmu
+- BI analytička – komunikuje s managementem, analyzuje data a doporučuje business řešení
+- BI vývojářka – Vyvíjí a udržuje nástroje a aplikace pro vizualizaci dat v rámci business intelligence. Často pracuje s nástroji jako Power BI, Tableau nebo Qlik pro vytváření interaktivních vizualizací.
+- DB administrátorka – Spravuje a udržuje databáze, zajišťuje bezpečnost dat, optimalizuje výkon a zajišťuje dostupnost. Pracuje s různými databázovými systémy, jako jsou Oracle, MySQL, SQL Server atd.
+- Big Data inženýrka – Specializuje se na práci s velkými daty, implementuje a optimalizuje systémy pro jejich efektivní zpracování. Pracuje s nástroji jako Hadoop, Spark nebo Kafka a má znalosti distribuovaných systémů.
+
+<p>&nbsp;</p>
+
 ## Otevřené zdroje dat (Open data)
 
 - Relational dataset repository - [https://relational.fit.cvut.cz/](https://relational.fit.cvut.cz/)
@@ -92,3 +100,4 @@ Proces uvažování, v němž se jeden úsudek odvíjí od druhého a konečným
 - Global Open Data Index - [http://index.okfn.org/dataset.html](http://index.okfn.org/dataset.html)
 - Brno - [https://data.brno.cz/](https://data.brno.cz/)
 - Spousta dalších...
+

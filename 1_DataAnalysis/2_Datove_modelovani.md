@@ -15,7 +15,7 @@ Množina záznamů a objektů (např. tabulek), které jsou organizovány za ur�
 
 **Nyní**
 
-<img src = "https://upload.wikimedia.org/wikipedia/commons/5/5f/Database_Server.svg"  height = "200px">
+<img src = "https://upload.wikimedia.org/wikipedia/commons/e/e0/A_view_of_the_server_room_at_The_National_Archives.jpg"  height = "200px">
 <p>&nbsp;</p>
 
 #### Přínosy

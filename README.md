@@ -1,5 +1,5 @@
-# Data-Analysis-Fundamentals
-Holds complementary resource for https://www.czechitas.cz/kurzy/zaklady-datove-analyzy
+# Základy datové analýzy
+Doplňkové zdroje pro kurz: https://www.czechitas.cz/kurzy/zaklady-datove-analyzy
 
 # Co vás čeká?
 

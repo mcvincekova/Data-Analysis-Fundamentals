@@ -1,5 +1,3 @@
-# Co nás dnes čeká?
-
 ## Agenda
 - **Analytické myšlení**
 - **Datový analytik**

@@ -46,7 +46,7 @@ Proces uvažování, v němž se jeden úsudek odvíjí od druhého a konečným
 
 ### Nástroje a jejich spolupráce
 
-
+<img src="https://github.com/mcvincekova/Data-Analysis-Fundamentals/blob/main/1_DataAnalysis/Images/nastroje.png" height ="300px">
 
 #### Podle čeho vybírat
 

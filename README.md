@@ -4,7 +4,7 @@ Doplňkové zdroje pro kurz: https://www.czechitas.cz/kurzy/zaklady-datove-analy
 # Co vás čeká?
 
 - Úvod do datové analýzy - 1. lekce
-- Úvod do datového modelování - 1. a 2. lekce
+- Úvod do datového modelování - 1. až 2. lekce
 - Úvod do jazyka SQL - 3. až 7. lekce
 - Úvod do práce s Power BI - 8. až 12. Lekce
 

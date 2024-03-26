@@ -82,7 +82,7 @@ Proces uvažování, v němž se jeden úsudek odvíjí od druhého a konečným
 
 <p>&nbsp;</p>
 
-## Zdroje dat otevřené
+## Otevřené zdroje dat (Open data)
 
 - Relational dataset repository - [https://relational.fit.cvut.cz/](https://relational.fit.cvut.cz/)
 - Sociologická data - [https://archiv.soc.cas.cz/](https://archiv.soc.cas.cz/)

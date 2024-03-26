@@ -6,6 +6,8 @@
 - **Nástroje pro datovou analýzu**
 - **Data v datové analýze**
 
+<p>&nbsp;</p>
+
 ## Analytické myšlení
 
 Proces uvažování, v němž se jeden úsudek odvíjí od druhého a konečným výsledkem jsou závěry.

@@ -4,6 +4,7 @@
 Údaje, používané pro popis nějakého jevu nebo vlastnosti pozorovaného objektu. Data se získávají zápisem, měřením nebo pozorováním
 
 <img src = "https://upload.wikimedia.org/wikipedia/commons/d/d2/Sonar_tracking_of_tungsten_ball_underneath_research_vessel_for_calibration_%2816824332958%29.jpg" height = "200px" title="Data">
+<p>&nbsp;</p>
 
 ### Databáze 
 Množina záznamů a objektů (např. tabulek), které jsou organizovány za určitým účelem.
@@ -15,6 +16,7 @@ Množina záznamů a objektů (např. tabulek), které jsou organizovány za ur�
 **Nyní**
 
 <img src = "https://upload.wikimedia.org/wikipedia/commons/5/5f/Database_Server.svg"  height = "200px">
+<p>&nbsp;</p>
 
 #### Přínosy
 
@@ -30,7 +32,7 @@ Množina záznamů a objektů (např. tabulek), které jsou organizovány za ur�
 - Graph databáze
 - atd.
 
-
+<p>&nbsp;</p>
 ## MODEL DATABÁZE
 Způsob uspořádání a způsob manipulace s daty
 

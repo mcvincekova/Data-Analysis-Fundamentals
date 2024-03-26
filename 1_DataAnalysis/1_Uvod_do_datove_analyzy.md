@@ -1,6 +1,6 @@
 ## Agenda
 - **Analytické myšlení**
-- **Datový analytik**
+- **Datová analýza a datový analytik**
 - **Nástroje pro datovou analýzu**
 - **Data v datové analýze**
 

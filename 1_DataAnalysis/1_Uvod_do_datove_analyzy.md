@@ -60,6 +60,14 @@ Proces uvažování, v němž se jeden úsudek odvíjí od druhého a konečným
 - Online vs. offline
 
 ### Výběr vhodných nástrojů
+- Co se hodí vs. co umím
+- Podle objemu dat
+- Excel vs. databáze (relační, textové, grafové…)
+- Podle typu dat
+- Textová, mapová, relační
+- Podle použití
+- Jednorázové vs. opakované
+- Online vs. offline
 
 <p>&nbsp;</p>
 

@@ -15,8 +15,9 @@ Proces uvažování, v němž se jeden úsudek odvíjí od druhého a konečným
 - [Test analytického myšlení](https://temp.buchtic.net/Analyticke_mysleni.pdf)
 
 ### Abraham Wald
+#### Klam přeživších (Survivorship bias)
 
-![Plane](https://upload.wikimedia.org/wikipedia/commons/5/54/Survivorship-bias.svg)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Survivorship-bias.svg/1280px-Survivorship-bias.svg.png?20221011173327" height ="500px">
 
 ### Datová analýza
 
@@ -79,5 +80,3 @@ Proces uvažování, v němž se jeden úsudek odvíjí od druhého a konečným
 - Global Open Data Index - [http://index.okfn.org/dataset.html](http://index.okfn.org/dataset.html)
 - Brno - [https://data.brno.cz/](https://data.brno.cz/)
 - Spousta dalších...
-
-### Dotazy?

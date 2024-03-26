@@ -10,7 +10,7 @@ Množina záznamů a objektů (např. tabulek), které jsou organizovány za ur�
 
 **Předtím**
 
-<img src= "https://upload.wikimedia.org/wikipedia/commons/3/3b/SML-Card-Catalog.jpg" height = "300px">
+<img src= "https://upload.wikimedia.org/wikipedia/commons/3/3b/SML-Card-Catalog.jpg" height = "200px">
 
 **Nyní**
 

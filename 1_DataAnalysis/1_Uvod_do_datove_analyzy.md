@@ -6,7 +6,7 @@
 - **Nástroje pro datovou analýzu**
 - **Data v datové analýze**
 
-### Analytické myšlení
+## Analytické myšlení
 
 Proces uvažování, v němž se jeden úsudek odvíjí od druhého a konečným výsledkem jsou závěry.
 - Rozklad problému na podproblémy
@@ -19,11 +19,15 @@ Proces uvažování, v němž se jeden úsudek odvíjí od druhého a konečným
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Survivorship-bias.svg/1280px-Survivorship-bias.svg.png?20221011173327" height ="500px">
 
-### Datová analýza
+<p>&nbsp;</p>
+
+## Datová analýza
 
 - „Datová analýza je proces zkoumání, čištění a modelování dat s cílem získat poznatky užitečné pro informování a podporu rozhodování.“
 
-#### Datová analýza – přehledně
+<img src="https://github.com/mcvincekova/Data-Analysis-Fundamentals/blob/main/1_DataAnalysis/Images/data.png" height ="500px">
+
+### Datový analytik
 
 - Sbírá data
 - Rozumí jim - know-how
@@ -32,21 +36,15 @@ Proces uvažování, v němž se jeden úsudek odvíjí od druhého a konečným
 - Vytváří analýzy (trendy, korelace, vzorce, odpovědi na bussines otázky)
 - Prezentuje výsledky
 
-### Datový analytik
+### Expectations vs Reality
 
-#### Expectations vs Reality
 
-- Analytické role
-- Datová analýza není jen pro datové analytiky. Brzy budou některé její fragmenty obecně vyžadované dovednosti.
+
+<p>&nbsp;</p>
 
 ### Nástroje a jejich spolupráce
 
-- Data
-- Datový model
-- Python
-- SQL
-- Power BI
-- Hotový projekt
+
 
 #### Podle čeho vybírat
 
@@ -61,7 +59,9 @@ Proces uvažování, v němž se jeden úsudek odvíjí od druhého a konečným
 
 ### Výběr vhodných nástrojů
 
-#### Nejčastější chyby
+<p>&nbsp;</p>
+
+### Nejčastější chyby
 
 - Chybné implikace a kauzality
 - Chybná interpretace dat
@@ -69,6 +69,8 @@ Proces uvažování, v němž se jeden úsudek odvíjí od druhého a konečným
 - Chybně postavené grafy a vizualizace
 - Chybná vstupní data nebo předpoklady
 - Chybný koncept - chceme datové projekty ;)
+
+<p>&nbsp;</p>
 
 ### Zdroje dat otevřené
 

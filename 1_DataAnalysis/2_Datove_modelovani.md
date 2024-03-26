@@ -33,6 +33,7 @@ Množina záznamů a objektů (např. tabulek), které jsou organizovány za ur�
 - atd.
 
 <p>&nbsp;</p>
+
 ## MODEL DATABÁZE
 Způsob uspořádání a způsob manipulace s daty
 

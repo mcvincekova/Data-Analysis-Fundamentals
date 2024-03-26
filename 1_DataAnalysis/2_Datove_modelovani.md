@@ -60,11 +60,7 @@ Způsob uspořádání a způsob manipulace s daty
 - Způsob fyzického uložení dat
 - V případě databází není součástí návrhu
 
-
-### Entity Relationship Diagram
-
-- Design relačních databází
-- Logický model
+<p>&nbsp;</p>
 
 ## RELAČNÍ MODEL DAT
 
@@ -74,6 +70,11 @@ Způsob uspořádání a způsob manipulace s daty
 - Určit vlastnosti, které jsou pro nás důležité, dostupné
 - Přemýšlet o tom, jaké jsou mezi objekty vztahy
 - Datové modelování = návrh datového modelu (ER diagram)
+
+### Entity Relationship Diagram
+
+- Design relačních databází
+- Logický model
 
 ### Datový model
 

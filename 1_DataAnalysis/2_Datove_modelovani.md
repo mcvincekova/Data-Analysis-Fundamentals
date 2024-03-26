@@ -1,12 +1,20 @@
-## Základní pojmy
+# Agenda
 
-### Data
+- Základní pojmy
+- Model databáze
+- Vývoj modelu databáze
+- ER diagram
+
+
+# Základní pojmy
+
+## Data
 Údaje, používané pro popis nějakého jevu nebo vlastnosti pozorovaného objektu. Data se získávají zápisem, měřením nebo pozorováním
 
 <img src = "https://upload.wikimedia.org/wikipedia/commons/d/d2/Sonar_tracking_of_tungsten_ball_underneath_research_vessel_for_calibration_%2816824332958%29.jpg" height = "200px" title="Data">
 <p>&nbsp;</p>
 
-### Databáze 
+## Databáze 
 Množina záznamů a objektů (např. tabulek), které jsou organizovány za určitým účelem.
 
 **Předtím**
@@ -16,7 +24,6 @@ Množina záznamů a objektů (např. tabulek), které jsou organizovány za ur�
 **Nyní**
 
 <img src = "https://upload.wikimedia.org/wikipedia/commons/e/e0/A_view_of_the_server_room_at_The_National_Archives.jpg"  height = "200px">
-<p>&nbsp;</p>
 
 #### Přínosy
 
@@ -34,7 +41,7 @@ Množina záznamů a objektů (např. tabulek), které jsou organizovány za ur�
 
 <p>&nbsp;</p>
 
-## MODEL DATABÁZE
+## Model databáze
 Způsob uspořádání a způsob manipulace s daty
 
 <img src = "https://github.com/mcvincekova/Data-Analysis-Fundamentals/blob/main/1_DataAnalysis/Images/model.png"  height = "300px">
@@ -44,14 +51,15 @@ Způsob uspořádání a způsob manipulace s daty
 - Objektové DBS (90. léta) – Orion, GemStone, Ontos, Object, Store
 - NoSQL DBS (2005+) - BigTable, HBase, SimpleDB, Dynamo
 
+<p>&nbsp;</p>
 
-### Vývoj modelu databáze
-#### Konceptuální model
+## Vývoj modelu databáze
+### Konceptuální model
 
 - Výběr konceptů
 - Volba rozlišení (jaké detaily)
 
-#### Logický model
+### Logický model
 
 - Identifikace vlastností - převod koncept entita
 - Identifikace vazeb - relace s kardinalitami
@@ -64,7 +72,7 @@ Způsob uspořádání a způsob manipulace s daty
 
 <p>&nbsp;</p>
 
-## RELAČNÍ MODEL DAT
+## Relační model dat
 
 ### Postup vytváření
 
@@ -73,13 +81,15 @@ Způsob uspořádání a způsob manipulace s daty
 - Přemýšlet o tom, jaké jsou mezi objekty vztahy
 - Datové modelování = návrh datového modelu (ER diagram)
 
+<p>&nbsp;</p>
+
 ### Entity Relationship Diagram
 - Design relačních databází
 - Logický model
 
 <img src = "https://upload.wikimedia.org/wikipedia/commons/b/b4/Example_ERD2.png">
 
-### Datový model
+### Pojmy
 
 - **Entita:** věc schopná samostatné existence a je jednoznačně identifikovatelná.
 - **Atribut:** vlastnost entity, která nás v kontextu daného problému zajímá.
@@ -87,7 +97,7 @@ Způsob uspořádání a způsob manipulace s daty
 - **Kardinalita / Multiplicita:** kolikrát se může instance dané entity účastnit vztahu s instancemi druhé entity.
   - 1:1, 1:N, M:N
 
-### Příklad
+#### Příklad - Pacient
 
 - Entita Pacient - jaké může mít atributy?
 
@@ -97,21 +107,26 @@ Způsob uspořádání a způsob manipulace s daty
   - Datum narození
   - Pohlaví
 
-### STŘEDNÍ ŠKOLA - zadání
+#### Příklady - Střední škola
 
 O studentovi víme, jak se jmenuje, v jakém ročníku je, kdy se narodil a odkud pochází.
 Předmět je vypsán pro určitý počet studentů. Má svůj kód. Každý předmět má právě jednoho učitele.  
 Každý student studuje několik předmětů. Předmět je vyučován v učebně. Předmět se učí ve specializované učebně (Biologie se nemůže učit v učebně matematiky).
 Učitel může učit více předmětů.
 
+**Řešení:** [Lucidchart](https://lucid.app/lucidchart/0c00c625-cd48-422d-b1b1-c17bbdb2cf18/edit?viewport_loc=-908%2C81%2C1664%2C781%2C0_0&invitationId=inv_b76faaf5-ad59-4e93-9636-3784cb722954)
+
+<p>&nbsp;</p>
+
 ### Klíče
-Primární klíč (PK) – jednoznačně identifikuje řádek
+**Primární klíč (PK)** – jednoznačně identifikuje řádek
 
-Cizí klíč (FK) – použitý v dalším výskytu k vyjádření vazeb mezi objekty zachycenými v relační databázi
-FK = zkratka ze zahraničního “foreign key”
+**Cizí klíč (FK)** – použitý v dalším výskytu k vyjádření vazeb mezi objekty zachycenými v relační databázi
+FK = zkratka z anglického “foreign key”
 
+<p>&nbsp;</p>
 
-## ZDROJE PRO SAMOSTUDIUM (nepovinné)
+## Zdroje pro samostudium (nepovinné)
 
 - [Modelování databází](https://www.root.cz/clanky/modelovani-databazi/)
 - [ER Diagrams](https://www.lucidchart.com/pages/er-diagrams)

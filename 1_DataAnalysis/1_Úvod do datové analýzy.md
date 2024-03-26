@@ -1,7 +1,6 @@
 # Co nás dnes čeká?
 
 ## Agenda
-
 - **Analytické myšlení**
 - **Datový analytik**
 - **Nástroje pro datovou analýzu**
@@ -14,6 +13,10 @@ Proces uvažování, v němž se jeden úsudek odvíjí od druhého a konečným
 - Používáme i v běžném životě
 - Dá se zlepšovat
 - [Test analytického myšlení](https://temp.buchtic.net/Analyticke_mysleni.pdf)
+
+### Abraham Wald
+
+![Plane](https://upload.wikimedia.org/wikipedia/commons/5/54/Survivorship-bias.svg)
 
 ### Datová analýza
 

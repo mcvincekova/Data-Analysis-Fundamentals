@@ -23,9 +23,9 @@ Proces uvažování, v němž se jeden úsudek odvíjí od druhého a konečným
 
 ## Datová analýza
 
-- „Datová analýza je proces zkoumání, čištění a modelování dat s cílem získat poznatky užitečné pro informování a podporu rozhodování.“
+„Datová analýza je proces zkoumání, čištění a modelování dat s cílem získat poznatky užitečné pro informování a podporu rozhodování.“
 
-<img src="https://github.com/mcvincekova/Data-Analysis-Fundamentals/blob/main/1_DataAnalysis/Images/data.png" height ="500px">
+<img src="https://github.com/mcvincekova/Data-Analysis-Fundamentals/blob/main/1_DataAnalysis/Images/data.png" height ="300px">
 
 ### Datový analytik
 

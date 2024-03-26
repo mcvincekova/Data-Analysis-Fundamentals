@@ -44,7 +44,7 @@ Proces uvažování, v němž se jeden úsudek odvíjí od druhého a konečným
 
 <p>&nbsp;</p>
 
-### Nástroje a jejich spolupráce
+## Nástroje a jejich spolupráce
 
 <img src="https://github.com/mcvincekova/Data-Analysis-Fundamentals/blob/main/1_DataAnalysis/Images/nastroje.png" height ="300px">
 
@@ -71,7 +71,7 @@ Proces uvažování, v němž se jeden úsudek odvíjí od druhého a konečným
 
 <p>&nbsp;</p>
 
-### Nejčastější chyby
+## Nejčastější chyby
 
 - Chybné implikace a kauzality
 - Chybná interpretace dat
@@ -82,7 +82,7 @@ Proces uvažování, v němž se jeden úsudek odvíjí od druhého a konečným
 
 <p>&nbsp;</p>
 
-### Zdroje dat otevřené
+## Zdroje dat otevřené
 
 - Relational dataset repository - [https://relational.fit.cvut.cz/](https://relational.fit.cvut.cz/)
 - Sociologická data - [https://archiv.soc.cas.cz/](https://archiv.soc.cas.cz/)

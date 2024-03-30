@@ -16,8 +16,6 @@ Vztahy mezi těmito entitami zachycuje následující datový model:
 
 ![Data Model](Images/dataModel.png)
 
-vyuzivat online databazovy editor SQLite Online.
-
 ---
 ## Příprava Databáze
 ---

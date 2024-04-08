@@ -43,9 +43,9 @@ Spusťte [sqliteonline.com](https://sqliteonline.com/) a importujte data podle [
 
 1. Vyberte všechny sloupce z tabulky `product` a zobrazte pouze prvních 5 řádků.
 
-2. Vyberte jedinečné kategorie (`category`) produktů z tabulky `product` (tak aby tam žádná region kategorie vícrát).
+2. Vyberte jedinečné kategorie (`category`) produktů z tabulky `product` (tak, aby tam žádná kategorie nebyla víckrát).
 
-3. Vyberte jedinečné regiony (`region`) z tabulky `country` (tak aby tam žádný region nebyl vícrát) a zobrazte pouze první záznam.
+3. Vyberte jedinečné regiony (`region`) z tabulky `country` (tak, aby tam žádný region nebyl víckrát) a zobrazte pouze první záznam.
 
 ### [Bonus]
 

@@ -112,7 +112,7 @@ Spusťte [sqliteonline.com](https://sqliteonline.com/) a importujte data podle [
 >```
 >
 
-2. Vyberte jedinečné kategorie (`category`) produktů z tabulky `product` (tak aby tam žádná kategorie nebyla víckrát).
+2. Vyberte jedinečné kategorie (`category`) produktů z tabulky `product` (tak, aby tam žádná kategorie nebyla víckrát).
 
 **Řešení**
 > SQL dotaz:
@@ -124,7 +124,7 @@ Spusťte [sqliteonline.com](https://sqliteonline.com/) a importujte data podle [
 >```
 >
 
-3. Vyberte jedinečné regiony (`region`) z tabulky `country` (tak aby tam žádný region nebyl víckrát) a zobrazte pouze první záznam.
+3. Vyberte jedinečné regiony (`region`) z tabulky `country` (tak, aby tam žádný region nebyl víckrát) a zobrazte pouze první záznam.
 
 **Řešení**
 > SQL dotaz:
@@ -245,7 +245,7 @@ FROM
 >```
 >
 
-3. Vyberte všechny jedinečné státy (`state`) z tabulky `country` kde (`region`) je `Central`.
+3. Vyberte všechny jedinečné státy (`state`) z tabulky `country`, kde (`region`) je `Central`.
 
 **Řešení**
 > SQL dotaz:

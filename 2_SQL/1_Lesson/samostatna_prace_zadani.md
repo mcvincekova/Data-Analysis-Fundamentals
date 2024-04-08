@@ -81,7 +81,7 @@ FROM
 
 2. Vyberte všechny prodeje z tabulky `sales`, jejichž zisk (`revenue`) je alespoň _20000$_ a zároveň počet prodaných kusů (`units`) je více než 30.
 
-3. Vyberte všechny jedinečné státy (`state`) z tabulky `country` kde (`region`) je `Central`.
+3. Vyberte všechny jedinečné státy (`state`) z tabulky `country`, kde (`region`) je `Central`.
 
 ### [Bonus]
 

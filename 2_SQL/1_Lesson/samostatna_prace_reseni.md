@@ -13,6 +13,19 @@ Spusťte [sqliteonline.com](https://sqliteonline.com/) a importujte data podle [
     - data o které zemi jsou v této tabulce uložena?
 
 **Řešení**
+> Na zobrazení dat použijeme následující dotaz
+> 
+> ```sql 
+> SELECT * FROM country
+> ```
+>
+> Země, kterou hledáme, je uvedena ve sloupci  `Country` - `USA`
+
+2. Vyberte data z tabulek `product` a `manufacturer`
+    - který výrobce vyrábí produkt s ID 1? 
+    - jak vypadá logo tohoto výrobce?
+
+**Řešení**
 > Na zobrazení dat použijeme následující dotazy:
 > 
 > ```sql
@@ -24,19 +37,6 @@ Spusťte [sqliteonline.com](https://sqliteonline.com/) a importujte data podle [
 > ```
 >
 > Ve tabulce `product` můžeme vidět, že produkt s `ProductID` 1 je vyráběn výrobcem s `ManufacturerID` 1. Následně v tabulce `manufacturer` hledáme výrobce, kterého `ManufacturerID` je 1 - `Abbas`
-
-2. Vyberte data z tabulek `product` a `manufacturer`
-    - který výrobce vyrábí produkt s ID 1? 
-    - jak vypadá logo tohoto výrobce?
-
-**Řešení**
-> Na zobrazení dat použijeme následující dotaz
-> 
-> ```sql 
-> SELECT * FROM country
-> ```
->
-> Země, kterou hledáme, je uvedena ve sloupci  `Country` - `USA`
 
 ### [Bonus] - Relace
 
@@ -112,7 +112,7 @@ Spusťte [sqliteonline.com](https://sqliteonline.com/) a importujte data podle [
 >```
 >
 
-2. Vyberte jedinečné kategorie (`category`) produktů z tabulky `product` (tak aby tam žádná region kategorie vícrát).
+2. Vyberte jedinečné kategorie (`category`) produktů z tabulky `product` (tak aby tam žádná kategorie nebyla vícrát).
 
 **Řešení**
 > SQL dotaz:

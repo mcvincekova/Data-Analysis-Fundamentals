@@ -73,7 +73,7 @@ FROM
     - `date`
     - `zip`
     - `revenue`
-2. V předcházejícím dotazu omez výsledek na pouze 10 řádků.
+2. V předcházejícím dotazu omezte výsledek na pouze 10 řádků.
 
 ### Úkol 2 - WHERE
 

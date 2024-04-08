@@ -44,7 +44,7 @@ Množina záznamů a objektů (např. tabulek), které jsou organizovány za ur�
 ## Model databáze
 Způsob uspořádání a způsob manipulace s daty
 
-<img src = "https://github.com/mcvincekova/Data-Analysis-Fundamentals/blob/main/1_DataAnalysis/Images/model.png"  height = "300px">
+<img src = "../Resources/Images/DataAnalysis/model.png"  height = "300px">
 
 - Síťové DBS (1969, 1971)
 - Relační (2. pol. 70. let, 80. léta) a objektově relační (90. léta) DBS – ORACLE, Informix, Sybase, MS SQL Server, Progress, DB/2, MySQL, ...

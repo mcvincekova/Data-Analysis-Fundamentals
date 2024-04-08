@@ -2,7 +2,6 @@
 
 ## Samostatná práce 1
 ---
----
 
 ### Úkol 1 - Příprava prostředí
 
@@ -27,7 +26,6 @@ Spusťte [sqliteonline.com](https://sqliteonline.com/) a importujte data podle [
 ---
 
 ## Samostatná práce 2
----
 ---
 
 ### Úkol 1 - Výběr sloupců pomocí příkazu SELECT
@@ -68,7 +66,6 @@ FROM
 
 ## Samostatná práce 3
 ---
----
 
 ### Úkol 1 - Řazení
 
@@ -94,3 +91,5 @@ FROM
     - název produktu (`product`) začíná na písmeno `P` nebo obsahuje písmeno `Q `
     
     Výsledek seřaďte vzestupně.
+
+---

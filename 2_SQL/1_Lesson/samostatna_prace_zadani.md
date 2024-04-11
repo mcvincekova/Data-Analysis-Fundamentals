@@ -43,9 +43,9 @@ Spusťte [sqliteonline.com](https://sqliteonline.com/) a importujte data podle [
 
 1. Vyberte všechny sloupce z tabulky `product` a zobrazte pouze prvních 5 řádků.
 
-2. Vyberte jedinečné kategorie (`category`) produktů z tabulky `product` (tak aby tam žádná region kategorie vícrát).
+2. Vyberte jedinečné kategorie (`category`) produktů z tabulky `product` (tak, aby tam žádná kategorie nebyla víckrát).
 
-3. Vyberte jedinečné regiony (`region`) z tabulky `country` (tak aby tam žádný region nebyl vícrát) a zobrazte pouze první záznam.
+3. Vyberte jedinečné regiony (`region`) z tabulky `country` (tak, aby tam žádný region nebyl víckrát) a zobrazte pouze první záznam.
 
 ### [Bonus]
 
@@ -69,11 +69,11 @@ FROM
 
 ### Úkol 1 - Řazení
 
-1. Vyberte všechny sloupce tabulky `sales` a seřaďte výsledky sestupně dle výše výnoss (`revenue`) 
+1. Vyberte všechny sloupce tabulky `sales` a seřaďte výsledky sestupně dle výše výnosu (`revenue`) 
     - `date`
     - `zip`
     - `revenue`
-2. V předcházejícím dotazu omez výsledek na pouze 10 řádků.
+2. V předcházejícím dotazu omezte výsledek na pouze 10 řádků.
 
 ### Úkol 2 - WHERE
 
@@ -81,7 +81,7 @@ FROM
 
 2. Vyberte všechny prodeje z tabulky `sales`, jejichž výnos (`revenue`) je alespoň _20000$_ a zároveň počet prodaných kusů (`units`) je více než 30.
 
-3. Vyberte všechny jedinečné státy (`state`) z tabulky `country` kde (`region`) je `Central`.
+3. Vyberte všechny jedinečné státy (`state`) z tabulky `country`, kde (`region`) je `Central`.
 
 ### [Bonus]
 

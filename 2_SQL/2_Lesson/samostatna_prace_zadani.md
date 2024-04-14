@@ -34,14 +34,14 @@
 
 ```sql 
 SELECT 
-	zip, 
+    zip, 
     state, 
     region
 FROM 
-	country
+    country
 WHERE 
-	-- 1. podminka
-	(region LIKE '%t' AND region LIKE '____')
+    -- 1. podminka
+    (region LIKE '%t' AND region LIKE '____')
     -- 2. podminka 
     AND (state = 'OH' OR state = 'PA' OR state = 'NM')
     -- 3. podminka

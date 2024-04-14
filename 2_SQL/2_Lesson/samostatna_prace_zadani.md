@@ -28,9 +28,7 @@
     
     Výsledek seřaďte vzestupně.
 
-2. Každou podmínku (1. 2. a 3.) v následujícím SQL dotazu zkuste napsat jiným způsobem, tak aby funkce SQL dotazu zůstala nezměněna. Například: 
-
-`productID != 1` lze také zapsat jako `productID <> 1`
+2. Každou podmínku (1. 2. a 3.) v následujícím SQL dotazu zkuste napsat jiným způsobem, tak aby funkce SQL dotazu zůstala nezměněna. Například: `productID != 1` lze také zapsat jako `productID <> 1`
 
 ```sql 
 SELECT 

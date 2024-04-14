@@ -45,7 +45,7 @@ WHERE
     -- 2. podminka 
     AND (state = 'OH' OR state = 'PA' OR state = 'NM')
     -- 3. podminka
-    AND (zip between 45880 AND 87050)
+    AND (zip BETWEEN 45880 AND 87050)
 ```
 
 ---

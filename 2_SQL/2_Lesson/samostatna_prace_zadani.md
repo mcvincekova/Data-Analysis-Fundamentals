@@ -74,7 +74,7 @@ WHERE
 
 1. Napište dotaz SQL, který z tabulky `country` zjistí počet unikátních měst (`city`) pro každý stát (`state`), a poté zobrazí pouze ty státy, které mají více než 1000 unikátních měst. Přejmenujte sloupec počtu měst na `pocetMest`. Kolik takových států je?
 
-### Úkol 1 - Analytické úkoly
+### Úkol 2 - Analytické úkoly
 
 1. Jaká je průměrná cena nabízených produktů v jednotlivých kategoriích?
 

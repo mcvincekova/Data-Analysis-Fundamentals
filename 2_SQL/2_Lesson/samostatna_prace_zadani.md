@@ -47,3 +47,51 @@ WHERE
 ```
 
 ---
+
+## Samostatná práce 2
+---
+
+### Úkol 1 - Agregační funkce
+
+1. Z tabulky `sales` vyberte celkovou sumu prodaných kusů (`units`) zboží ze všech prodejů.
+
+2. Z tabulky `sales` zjistěte průměrný výnos ze všech prodejů produktů s ID (`productId`) 1 anebo 2.
+
+3. Vybere minimální a maximální hodnotu psč kódů (`zip`) pro každou oblast (`region`) z tabulky `country`. Přejmenujte sloupce s minimální a maximální hodnoty psč na `minPSC` a `maxPSC`.
+
+4. Vybere počet psč kódů (`zip`) pro každý stát (`state`) z tabulky `country` a seřaďte výsledky sestupně podle počtu psč kódů.
+
+### [Bonus]
+
+1. Určete dotaz SQL, který z tabulky `sales` vybere průměrné hodnoty výnosu (`revenue`) a jednotek (`units`) pro každý produkt s ID vyšším než 500, seřadí výsledky sestupně podle průměrného výnosu a omezí výstup jen na prvních 10 výsledků.
+
+---
+
+## Samostatná práce 3 - Agregační funkce & Analytické úkoly
+---
+
+### Úkol 1 - Agregační funkce
+
+1. Napište dotaz SQL, který z tabulky `country` zjistí počet unikátních měst (`city`) pro každý stát (`state`), a poté zobrazí pouze ty státy, které mají více než 1000 unikátních měst. Přejmenujte sloupec počtu měst na `pocetMest`. Kolik takových států je?
+
+### Úkol 1 - Analytické úkoly
+
+1. Jaká je průměrná cena nabízených produktů v jednotlivých kategoriích?
+
+2. Popřemýšlejte nad tím, co dělá níže uvedený SQL dotaz. Jaké by bylo technické vs. skutečné zadání pro tento dotaz?
+
+```sql
+SELECT
+    COUNT(productId),
+    manufacturerId
+FROM 
+    product
+WHERE
+    priceNew < 100
+GROUP BY
+    manufacturerId
+```
+
+### [Bonus]
+
+1. Kolik unikátních produktů bylo prodáno v prvním a druhém měsíci roku 2014? _(Nápověda: Rok a měsíc lze získat z formátu date pomocí funkce `strftime`.)_

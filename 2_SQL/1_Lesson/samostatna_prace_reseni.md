@@ -82,7 +82,7 @@ Spusťte [sqliteonline.com](https://sqliteonline.com/) a importujte data podle [
 2. Sloupce z předchozího dotazu přejmenujte následovně:
     - `date`        - `datum`
     - `zip`         - `psc`
-    - `revenue`     - `zisk`
+    - `revenue`     - `vynos`
 
 **Řešení**
 > SQL dotaz:
@@ -90,7 +90,7 @@ Spusťte [sqliteonline.com](https://sqliteonline.com/) a importujte data podle [
 >SELECT
 >   date AS datum,
 >   zip AS psc,
->   revenue AS zisk
+>   revenue AS vynos
 >FROM
 >   sales
 >```
@@ -175,7 +175,7 @@ FROM
 
 ### Úkol 1 - Řazení
 
-1. Vyberte všechny sloupce tabulky `sales` a seřaďte výsledky sestupně dle výše zisku (`revenue`) 
+1. Vyberte všechny sloupce tabulky `sales` a seřaďte výsledky sestupně dle výše výnosu (`revenue`) 
     - `date`
     - `zip`
     - `revenue`
@@ -214,7 +214,7 @@ FROM
 
 ### Úkol 2 - WHERE
 
-1. Vyberte všechny prodeje z tabulky `sales`, jejichž zisk (`revenue`) je nejméně _7000$_ a nejvýše _30000$_ (včetně).
+1. Vyberte všechny prodeje z tabulky `sales`, jejichž výnos (`revenue`) je nejméně _7000$_ a nejvýše _30000$_ (včetně).
 
 **Řešení**
 > SQL dotaz:
@@ -230,7 +230,7 @@ FROM
 >```
 >
 
-2. Vyberte všechny prodeje z tabulky `sales`, jejichž zisk (`revenue`) je alespoň _20000$_ a zároveň počet prodaných kusů (`units`) je více než 30.
+2. Vyberte všechny prodeje z tabulky `sales`, jejichž výnos (`revenue`) je alespoň _20000$_ a zároveň počet prodaných kusů (`units`) je více než 30.
 
 **Řešení**
 > SQL dotaz:

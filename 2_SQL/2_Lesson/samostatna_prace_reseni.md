@@ -166,12 +166,9 @@ WHERE
 > SQL dotaz:
 >```sql
 >SELECT
->   DISTINCT state
+>   SUM(units)
 >FROM
->   country
->WHERE
->   region = 'Central'
->```
+>   sales
 >
 
 2. Z tabulky `sales` zjistěte průměrný výnos ze všech prodejů produktů s ID (`productId`) 1 anebo 2.

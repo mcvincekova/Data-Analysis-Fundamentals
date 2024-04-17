@@ -315,7 +315,7 @@ GROUP BY
 > SQL dotaz:
 >```sql
 >SELECT 
->   COUNT(productid),
+>   COUNT(DISTINCT productid),
 >   strftime('%m', date)
 >FROM
 >   sales

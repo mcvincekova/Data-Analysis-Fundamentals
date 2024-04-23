@@ -82,13 +82,15 @@
 >   manufacturer
 >FROM
 >   product JOIN manufacturer ON product.ManufacturerID = manufacturer.ManufacturerID
+>GROUP BY
+>   manufacturer
 >ORDER BY
 >   pocetProduktu DESC
 >LIMIT
 >   1
 >```
 >
-> `Abbas` vyrábí nejvíce různých výrobků - 2412.
+> `Quibus` vyrábí nejvíce různých výrobků - 455.
 
 2. Ve kterých státech se za rok 2015 celkově prodalo alespoň 10000 kusů produktů?
 

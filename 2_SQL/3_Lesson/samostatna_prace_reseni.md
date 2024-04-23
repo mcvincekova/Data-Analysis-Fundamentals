@@ -78,7 +78,6 @@
 > SQL dotaz:
 >```sql
 >SELECT
->SELECT
 >   COUNT(productid) as pocetProduktu,
 >   manufacturer
 >FROM

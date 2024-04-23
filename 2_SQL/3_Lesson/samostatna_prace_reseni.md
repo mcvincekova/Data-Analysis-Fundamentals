@@ -33,12 +33,12 @@
 > SQL dotaz:
 >```sql
 >SELECT
->    productid,
->    date,
->    sales.zip,
->    units,
->    revenue,
->    region
+>   productid,
+>   date,
+>   sales.zip,
+>   units,
+>   revenue,
+>   region
 >FROM
 >   sales JOIN country ON sales.zip = country.zip
 >ORDER BY
@@ -78,17 +78,18 @@
 > SQL dotaz:
 >```sql
 >SELECT
->   State,
->   SUM(Revenue)
+>SELECT
+>   COUNT(productid) as pocetProduktu,
+>   manufacturer
 >FROM
->   Sales s
->   JOIN Country c ON s.Zip = c.Zip
->GROUP BY
->   State
+>   product JOIN manufacturer ON product.ManufacturerID = manufacturer.ManufacturerID
 >ORDER BY
->   SUM(Revenue) DESC;
+>   pocetProduktu DESC
+>LIMIT
+>   1
 >```
 >
+> `Abbas` vyrábí nejvíce různých výrobků - 2412.
 
 2. Ve kterých státech se za rok 2015 celkově prodalo alespoň 10000 kusů produktů?
 
@@ -96,8 +97,8 @@
 > SQL dotaz:
 >```sql
 >SELECT
->	COUNT(units) AS totalUnits,
->    state
+>   COUNT(units) AS totalUnits,
+>   state
 >FROM
 >   sales JOIN country ON sales.Zip = country.Zip
 >   WHERE
@@ -131,7 +132,7 @@
 >FROM 
 >   Product p LEFT JOIN sales s ON s.ProductID = p.ProductID
 >GROUP BY
-    p.ProductID
+>   p.ProductID
 >```
 >
 

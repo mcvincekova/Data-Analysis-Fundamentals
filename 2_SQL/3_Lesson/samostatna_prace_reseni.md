@@ -171,6 +171,8 @@
 >    s.productid IS NULL;
 >```
 >
+> Nikdy neprodalo `989` produktů.
+>
 
 ### [Bonus]
 

@@ -36,7 +36,7 @@
 
 ### Úkol 1 - Vložení hodnot do tabulky
 
-1. Vložte do tabulky `shop` (z předchozího cvičení) 2 záznamy, které mají hodnoty:
+1. Vložte do tabulky `shop` (z předchozího cvičení) 4 záznamy, které mají hodnoty:
     * `shopID` = `1`, `manager` = `Anna Thompson`, `numEmployees` = `17`, `zip` = `6026`
     * `shopID` = `2`, `manager` = `Rick Fall`, `numEmployees` = `4`, `zip` = `102`
     * `shopID` = `3`, `manager` = `Beth Lim`, `numEmployees` = `5`, `zip` = `1009`

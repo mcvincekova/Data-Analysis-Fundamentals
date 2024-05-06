@@ -57,8 +57,8 @@
 ### Úkol 2 - CASE
 
 1. Vyberte všechny prodeje z tabulky `sales` a přiřaďte jim kategorii velikosti balíku (`packageSize`) podle počtu prodaných kusů následovně:
-    * `LARGE` – pokud prodej zahrnoval 25 kusů nebo více
-    * `MEDIUM` – pokud podaný počet kusů byl mezi 24 a 5 (včetně)
+    * `LARGE` – pokud prodej zahrnoval 15 kusů nebo více
+    * `MEDIUM` – pokud podaný počet kusů byl mezi 14 a 5 (včetně)
     * `SMALL` – pokud prodej zahrnoval méně než 5 kusů.
 
 

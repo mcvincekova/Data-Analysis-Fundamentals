@@ -51,20 +51,22 @@
 
 1. Vyberte všechny unikátní regiony z tabulky country, názvy regionů zobrazte velkými písmeny
 
-2. Vyberte všechny jedinečné okresy (`district`) z tabulky `country` a k nim jejich orientační číslo - orientační číslo je v názvu okresu za znakem `#`."
+2. Vyberte všechny jedinečné okresy (`district`) z tabulky `country` a k nim jejich orientační číslo - orientační číslo je v názvu okresu za znakem `#`.
 
 
 ### Úkol 2 - CASE
 
-3. Vyberte všechny prodeje z tabulky `sales` a přiřaďte jim kategorii velikosti balíku (`packageSize`) podle počtu prodaných kusů následovně:
+1. Vyberte všechny prodeje z tabulky `sales` a přiřaďte jim kategorii velikosti balíku (`packageSize`) podle počtu prodaných kusů následovně:
     * `LARGE` – pokud prodej zahrnoval 25 kusů nebo více
     * `MEDIUM` – pokud podaný počet kusů byl mezi 24 a 5 (včetně)
-    * `SMALL` – pokud prodej zahrnoval méně než 5 kusů."
+    * `SMALL` – pokud prodej zahrnoval méně než 5 kusů.
 
 
 ### [Bonus]
 
-1. Prodeje spolu s kategorií velikosti balíků (z předchozího příkladu) si uložte jako nový VIEW s názvem dle vlastního výběru. Za pomoci tohoto VIEW zjistěte:
+1. Předchozí příklad vyřešte pomocí jednoduchého i hledaného CASE příkazu.
+
+2. Prodeje spolu s kategorií velikosti balíků (z příkladu 2.1) si uložte jako nový VIEW s názvem dle vlastního výběru. Za pomoci tohoto VIEW zjistěte:
 
     * Kolik velkých (`LARGE`), středně velkých (`MEDIUM`) a malých (`SMALL`) balíků bylo odesláno (prodáno).
     * Celkový a průměrný výnos pro každou kategorii velikosti balíku.

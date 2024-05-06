@@ -215,7 +215,7 @@
 >```
 >
 >
-> Hledaný CASE příkaz:
+> Jednoduchý CASE příkaz:
 >```sql
 >SELECT 
 >*,

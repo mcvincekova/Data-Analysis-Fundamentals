@@ -187,7 +187,7 @@
 >SELECT 
 >   *,
 >   CASE
->       WHEN units >= 25 THEN 'LARGE'
+>       WHEN units >= 15 THEN 'LARGE'
 >       WHEN units >= 5 THEN 'MEDIUM'
 >       ELSE 'SMALL'
 >   END AS packageSize

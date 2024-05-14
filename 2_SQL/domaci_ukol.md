@@ -13,11 +13,11 @@ SELECT
     m.Manufacturer,
     COUNT(DISTINCT Segment)
 FROM
-   	Product p JOIN Manufacturer m ON p.ManufacturerID = m.ManufacturerID
+    Product p JOIN Manufacturer m ON p.ManufacturerID = m.ManufacturerID
 GROUP BY
      m.Manufacturer
 HAVING 
-	COUNT(DISTINCT Segment) >= 6
+    COUNT(DISTINCT Segment) >= 6
 ORDER BY
     COUNT(DISTINCT Segment) DESC
 ```
@@ -74,14 +74,14 @@ SELECT
     REPLACE(c.city, ', USA', ''),
     COUNT(s.productid) pocet_produktu
  FROM 
- 	country c	LEFT JOIN sales s ON s.ZIP = c.ZIP
+    country c LEFT JOIN sales s ON s.ZIP = c.ZIP
  WHERE 
- 	c.Region = 'West'
+    c.Region = 'West'
     AND c.City LIKE 'West%'
  GROUP BY 
- 	c.city
+    c.city
  ORDER BY 
- 	pocet_produktu
+    pocet_produktu
 ```
 
 ```txt
@@ -127,26 +127,26 @@ WITH taxes2015 AS
 SELECT 
     *,
     CASE 
-    	WHEN revenue > 5000 THEN 'HIGH_TAX'
+        WHEN revenue > 5000 THEN 'HIGH_TAX'
         WHEN revenue > 1000 THEN 'LOW_TAX'
         ELSE 'NO_TAX'
     END AS tax_info
 FROM 
-	sales
+    sales
 WHERE
-	strftime('%Y', date) = '2015'
+    strftime('%Y', date) = '2015'
 )
 
 SELECT
-	SUM(revenue),
+    SUM(revenue),
     SUM(units),
     tax_info
 FROM
-	taxes2015 JOIN country ON taxes2015.zip = country.zip 
+    taxes2015 JOIN country ON taxes2015.zip = country.zip 
 WHERE
-	state = 'TX'
+    state = 'TX'
 GROUP BY
-	tax_info
+    tax_info
 ```
 
 ```txt

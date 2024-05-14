@@ -42,7 +42,7 @@ ORDER BY
 
 ```sql
 SELECT
-	p.ProductID,
+    p.ProductID,
     p.Product,
     SUM(s.Units) AS UnitsSold
 FROM
@@ -71,7 +71,7 @@ LIMIT 1
 
 ```sql
 SELECT 
-	REPLACE(c.city, ', USA', ''),
+    REPLACE(c.city, ', USA', ''),
     COUNT(s.productid) pocet_produktu
  FROM 
  	country c	LEFT JOIN sales s ON s.ZIP = c.ZIP
@@ -125,7 +125,7 @@ Zjistěte celkový výnos z prodejů pro každou daňovou kategorii.
 WITH taxes2015 AS
 (
 SELECT 
-	*,
+    *,
     CASE 
     	WHEN revenue > 5000 THEN 'HIGH_TAX'
         WHEN revenue > 1000 THEN 'LOW_TAX'

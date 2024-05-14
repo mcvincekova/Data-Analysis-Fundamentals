@@ -87,7 +87,7 @@ SELECT
 ```txt
 "West Glenn County, CA"     "0"
 "West Pima County, AZ"      "0"
-"West Tehama County, CA"	"0"
+"West Tehama County, CA"    "0"
 "Westfall, OR"              "0"
 "West Glacier, MT"          "1"
 "Westfir, OR"               "2"
